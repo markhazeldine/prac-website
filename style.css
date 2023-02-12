@@ -1,10 +1,37 @@
 html, body {
-  height: 100%;
+  height: 80%;
   width: 100%;
   color: navy;
   background-color: lightblue;
   font-family: Helvetica;
 }
+
+nav {
+  background-color: white;
+  padding-left: 4px;
+}
+
+main {
+  background-color: red;
+  padding-left: 4px;
+}
+
+header {
+  background-color: #1eff00;
+  padding-left: 4px;
+}
+
+footer {
+  background-color: #e1ff00;
+  padding-left: 4px;
+}
+
+
+header {
+  background-color: blue;
+  color: white;
+}
+
 img {
   border: 1px solid black;
   border-radius: 4px;
@@ -33,4 +60,25 @@ ul li {
   background: #007bff;
   color: white;
   margin: 5px;
+}
+
+a:link {
+  background-color: #ff2e2e;
+  color: black;
+}
+
+
+a:visited {
+  background-color: #61ff61;
+  color: black;
+}
+
+a:hover {
+  background-color: #41cdfb;
+  color: black;
+}
+
+a:active {
+  background-color: #ffea00;
+  color: black;
 }
