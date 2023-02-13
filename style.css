@@ -48,11 +48,20 @@ header {
 }
 
 img {
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 4px;
-  padding: 6px;
-  width: 1000px;
+  padding: 4px;
+  width: 50%;
+  height: auto;
   border-color: white;
+}
+
+.blackborder {
+  border: 3px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  width: 50%;
+  height: auto;
 }
 
 ol {
@@ -97,4 +106,13 @@ a:hover {
 a:active {
   background-color: #ffea00;
   color: black;
+}
+
+.redtext{
+  color: red;
+}
+
+.sport {
+  font-size: 30px;
+  padding-left:53%;
 }
